@@ -21,13 +21,22 @@ h2, p {
 h3 {
     color: #426696;
     font-weight: 600;
-    opacity: 0.8; 
+    opacity: 0.8;
+    font-size: 2rem; 
+}
+
+.user-description {
+    font-size: 1.5rem;
+}
+
+.book-author  {
+    font-size: 1.2rem;
 }
 
 main {
     font-family: 'Poppins', sans-serif;
-    min-height: 100vh;
-    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+    min-height: 110vh;
+    background-image: linear-gradient(to left bottom, #836d83, #9288a3, #9fa4c2, #abc1df, #b8dff8);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -47,25 +56,25 @@ main {
 .circle1, .circle2 {
     background: white;
     background: linear-gradient(to right bottom, rgba(255,255,255,0.8), rgba(255,255,255,0.3));
-    height: 20rem;
-    width: 20rem;
+    height: 15rem;
+    width: 15rem;
     position: absolute;
     border-radius: 50%; 
 }
 
 .circle1 {
-    top: 5%;
-    right: 15%;
+    top: 0%;
+    right: 10%;
 }
 
 .circle2 {
-    bottom: 5%;
+    bottom: -10%;
     left: 10%;
 }
 
 .avatar {
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     background-image: url('images/avatar.jpeg');
     background-size: cover;
     border-radius: 50%;
@@ -83,8 +92,16 @@ main {
     background: linear-gradient(to right bottom, rgba(255,255,255,0.8), rgba(255,255,255,0.3));
 }
 
-.games {
+.links-logo {
+    width: 50px;
+}
+
+.library {
      flex: 2;
+}
+
+.library-logo {
+    width: 20%
 }
 
 .link {
@@ -103,25 +120,24 @@ main {
     position: relative;
     padding: 1rem;
     border-radius: 2rem;
-    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+    margin: 0rem 1rem;
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.8), rgba(255,255,255,0.3));
 }
 
 .pro img {
     position: absolute;
-    top: -10%;
+    top: 23%;
     right: 10%;
+    width: 20%;
 }
 
 .pro h2 {
-    width: 40%;
+    width: 50%;
     color: white;
     font-weight: 600;
 }
 
 /* GAME SECTION */
-.status {
-    margin-bottom: 3rem;
-}
 
 .status input {
     background: linear-gradient(to right bottom, rgba(255,255,255,0.7), rgba(255,255,255,0.3));
@@ -131,27 +147,27 @@ main {
     border-radius: 2rem;
 }
 
-.games {
+.library {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    margin: 5rem;
+    margin: 2rem 4rem;
 }
 
 .card {
     display: flex;
     background: linear-gradient(to left top, rgba(255,255,255,0.2), rgba(255,255,255,0.8));
     border-radius: 1rem;
-    margin: 2rem 0rem;
+    margin: 1rem 0rem;
     padding: 2rem;
     box-shadow: 6px 6px 20px rgba(122,122,122,0.2);
     justify-content: space-between;
 }
 
 .progress {
-    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.8), rgba(255,255,255,0.3));
     width: 100%;
-    height: 25%;
+    height: 30px;
     border-radius: 1rem;
     position: relative;
     overflow: hidden;
@@ -161,7 +177,7 @@ main {
     content: "";
     width: 100%;
     height: 100%;
-    background: rgb(236,236,236);
+    background-image: linear-gradient(to right, #836d83, #8d81a0, #9197bd, #90afd8, #8bc8ee);
     position: absolute;
     left: 60%;
 }
@@ -169,12 +185,13 @@ main {
 .card-info {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    width: 60%;
 }
 
 .percentage {
     font-weight: 600;
-    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+    background-image: linear-gradient(to right, #836d83, #8d81a0, #9197bd, #90afd8, #8bc8ee);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
