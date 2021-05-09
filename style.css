@@ -56,8 +56,8 @@ main {
 .circle1, .circle2 {
     background: white;
     background: linear-gradient(to right bottom, rgba(255,255,255,0.8), rgba(255,255,255,0.3));
-    height: 15rem;
-    width: 15rem;
+    height: 23rem;
+    width: 23rem;
     position: absolute;
     border-radius: 50%; 
 }
